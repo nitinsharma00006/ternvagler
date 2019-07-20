@@ -61,7 +61,7 @@
         <div class="row">
           <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
             <a href="#" class="unit-1 text-center">
-              <img src="<?php echo base_url() ?>/images/01-greece.jpg" alt="Image" class="img-fluid">
+              <img src="<?php echo base_url() ?>images/01-greece.jpg" alt="Image" class="img-fluid">
               <div class="unit-1-text">
                 <strong class="text-primary mb-2 d-block"><del class="text-white">$590</del> <span class="mx-1 text-white ">&mdash;</span> $120</strong>
                 <h3 class="unit-1-heading">Santorini, Greece</h3>
@@ -70,7 +70,7 @@
           </div>
           <div class="col-md-6 col-lg-6 mb-4 mb-lg-4">
             <a href="#" class="unit-1 text-center">
-              <img src="<?php echo base_url() ?>/images/02-rome.jpg" alt="Image" class="img-fluid">
+              <img src="<?php echo base_url() ?>images/02-rome.jpg" alt="Image" class="img-fluid">
               <div class="unit-1-text">
                 <strong class="text-primary mb-2 d-block"><del class="text-white">$390</del> <span class="mx-1 text-white ">&mdash;</span> $100</strong>
                 <h3 class="unit-1-heading">Rome, Italy</h3>
@@ -80,7 +80,7 @@
 
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <a href="#" class="unit-1 text-center">
-              <img src="<?php echo base_url() ?>/images/01-greece.jpg" alt="Image" class="img-fluid">
+              <img src="<?php echo base_url() ?>images/01-greece.jpg" alt="Image" class="img-fluid">
               <div class="unit-1-text">
                 <strong class="text-primary mb-2 d-block"><del class="text-white">$590</del> <span class="mx-1 text-white ">&mdash;</span> $120</strong>
                 <h3 class="unit-1-heading">Santorini, Greece</h3>
@@ -89,7 +89,7 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <a href="#" class="unit-1 text-center">
-              <img src="<?php echo base_url() ?>/images/02-rome.jpg" alt="Image" class="img-fluid">
+              <img src="<?php echo base_url() ?>images/02-rome.jpg" alt="Image" class="img-fluid">
               <div class="unit-1-text">
                 <strong class="text-primary mb-2 d-block"><del class="text-white">$390</del> <span class="mx-1 text-white ">&mdash;</span> $100</strong>
                 <h3 class="unit-1-heading">Rome, Italy</h3>
@@ -98,7 +98,7 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <a href="#" class="unit-1 text-center">
-              <img src="<?php echo base_url() ?>/images/03-japan.jpg" alt="Image" class="img-fluid">
+              <img src="<?php echo base_url() ?>images/03-japan.jpg" alt="Image" class="img-fluid">
               <div class="unit-1-text">
                 <strong class="text-primary mb-2 d-block"><del class="text-white">$490</del> <span class="mx-1 text-white ">&mdash;</span> $110</strong>
                 <h3 class="unit-1-heading">Mount Fuji, Japan</h3>
@@ -108,7 +108,7 @@
 
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <a href="#" class="unit-1 text-center">
-              <img src="<?php echo base_url() ?>/images/04-dubai.jpg" alt="Image" class="img-fluid">
+              <img src="<?php echo base_url() ?>images/04-dubai.jpg" alt="Image" class="img-fluid">
               <div class="unit-1-text">
                 <strong class="text-primary mb-2 d-block"><del class="text-white">$320</del> <span class="mx-1 text-white ">&mdash;</span> $70</strong>
                 <h3 class="unit-1-heading">Camels, Dubai</h3>
@@ -117,7 +117,7 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <a href="#" class="unit-1 text-center">
-              <img src="<?php echo base_url() ?>/images/05-london.jpg" alt="Image" class="img-fluid">
+              <img src="<?php echo base_url() ?>images/05-london.jpg" alt="Image" class="img-fluid">
               <div class="unit-1-text">
                 <strong class="text-primary mb-2 d-block"><del class="text-white">$290</del> <span class="mx-1 text-white ">&mdash;</span> $50</strong>
                 <h3 class="unit-1-heading">Elizabeth Tower, London</h3>
@@ -126,7 +126,7 @@
           </div>
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
             <a href="#" class="unit-1 text-center">
-              <img src="<?php echo base_url() ?>/images/06-australia.jpg" alt="Image" class="img-fluid">
+              <img src="<?php echo base_url() ?>images/06-australia.jpg" alt="Image" class="img-fluid">
               <div class="unit-1-text">
                 <strong class="text-primary mb-2 d-block"><del class="text-white">$2,500</del> <span class="mx-1 text-white ">&mdash;</span> $500</strong>
                 <h3 class="unit-1-heading">Opera House, Australia</h3>
@@ -154,7 +154,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-lg-6 mb-5">
-                  <img src="<?php echo base_url() ?>/images/img_1.jpg" alt="Image" class="img-md-fluid">
+                  <img src="<?php echo base_url() ?>images/img_1.jpg" alt="Image" class="img-md-fluid">
                 </div>
                 <div class="overlap-left col-lg-6 bg-white p-md-5 align-self-center">
                   <p class="text-black lead">&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique dolorem quisquam laudantium, incidunt id laborum, tempora aliquid labore minus. Nemo maxime, veniam! Fugiat odio nam eveniet ipsam atque, corrupti porro&rdquo;</p>
@@ -168,7 +168,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-lg-6 mb-5">
-                  <img src="<?php echo base_url() ?>/images/img_2.jpg" alt="Image" class="img-md-fluid">
+                  <img src="<?php echo base_url() ?>images/img_2.jpg" alt="Image" class="img-md-fluid">
                 </div>
                 <div class="overlap-left col-lg-6 bg-white p-md-5 align-self-center">
                   <p class="text-black lead">&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique dolorem quisquam laudantium, incidunt id laborum, tempora aliquid labore minus. Nemo maxime, veniam! Fugiat odio nam eveniet ipsam atque, corrupti porro&rdquo;</p>
@@ -182,7 +182,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-lg-6 mb-5">
-                  <img src="<?php echo base_url() ?>/images/img_4.jpg" alt="Image" class="img-md-fluid">
+                  <img src="<?php echo base_url() ?>images/img_4.jpg" alt="Image" class="img-md-fluid">
                 </div>
                 <div class="overlap-left col-lg-6 bg-white p-md-5 align-self-center">
                   <p class="text-black lead">&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique dolorem quisquam laudantium, incidunt id laborum, tempora aliquid labore minus. Nemo maxime, veniam! Fugiat odio nam eveniet ipsam atque, corrupti porro&rdquo;</p>
@@ -271,101 +271,23 @@
         </div>
       </div>
     </div>
-    
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="mb-5">
-              <h3 class="footer-heading mb-4">About Travelers</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe pariatur reprehenderit vero atque, consequatur id ratione, et non dignissimos culpa? Ut veritatis, quos illum totam quis blanditiis, minima minus odio!</p>
-            </div>
-
-            
-            
-          </div>
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <div class="row mb-5">
-              <div class="col-md-12">
-                <h3 class="footer-heading mb-4">Navigations</h3>
-              </div>
-              <div class="col-md-6 col-lg-6">
-                <ul class="list-unstyled">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Destination</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">About</a></li>
-                </ul>
-              </div>
-              <div class="col-md-6 col-lg-6">
-                <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                  <li><a href="#">Discounts</a></li>
-                </ul>
-              </div>
-            </div>
-
-            
-
-          </div>
-
-          <div class="col-lg-4 mb-5 mb-lg-0">
-           
-
-            <div class="mb-5">
-              <h3 class="footer-heading mb-2">Subscribe Newsletter</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit minima minus odio.</p>
-
-              <form action="#" method="post">
-                <div class="input-group mb-3">
-                  <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
-                  <div class="input-group-append">
-                    <button class="btn btn-primary text-white" type="button" id="button-addon2">Send</button>
-                  </div>
-                </div>
-              </form>
-
-            </div>
-
-          </div>
-          
-        </div>
-        <div class="row pt-5 mt-5 text-center">
-          <div class="col-md-12">
-            <div class="mb-5">
-              <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-            </div>
-
-            <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
-          </div>
-          
-        </div>
-      </div>
-    </footer>
+    <!-- Include Footer -->
+    <?php include 'footer.php'; ?>
   </div>
 
-  <script src="<?php echo base_url() ?>/js/jquery-3.3.1.min.js"></script>
-  <script src="<?php echo base_url() ?>/js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="<?php echo base_url() ?>/js/jquery-ui.js"></script>
-  <script src="<?php echo base_url() ?>/js/popper.min.js"></script>
-  <script src="<?php echo base_url() ?>/js/bootstrap.min.js"></script>
-  <script src="<?php echo base_url() ?>/js/owl.carousel.min.js"></script>
-  <script src="<?php echo base_url() ?>/js/jquery.stellar.min.js"></script>
-  <script src="<?php echo base_url() ?>/js/jquery.countdown.min.js"></script>
-  <script src="<?php echo base_url() ?>/js/jquery.magnific-popup.min.js"></script>
-  <script src="<?php echo base_url() ?>/js/bootstrap-datepicker.min.js"></script>
-  <script src="<?php echo base_url() ?>/js/aos.js"></script>
+  <script src="<?php echo base_url() ?>js/jquery-3.3.1.min.js"></script>
+  <script src="<?php echo base_url() ?>js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="<?php echo base_url() ?>js/jquery-ui.js"></script>
+  <script src="<?php echo base_url() ?>js/popper.min.js"></script>
+  <script src="<?php echo base_url() ?>js/bootstrap.min.js"></script>
+  <script src="<?php echo base_url() ?>js/owl.carousel.min.js"></script>
+  <script src="<?php echo base_url() ?>js/jquery.stellar.min.js"></script>
+  <script src="<?php echo base_url() ?>js/jquery.countdown.min.js"></script>
+  <script src="<?php echo base_url() ?>js/jquery.magnific-popup.min.js"></script>
+  <script src="<?php echo base_url() ?>js/bootstrap-datepicker.min.js"></script>
+  <script src="<?php echo base_url() ?>js/aos.js"></script>
 
-  <script src="<?php echo base_url() ?>/js/main.js"></script>
+  <script src="<?php echo base_url() ?>js/main.js"></script>
     
   </body>
 </html>

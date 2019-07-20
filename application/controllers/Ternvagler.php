@@ -18,15 +18,34 @@ class Ternvagler extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->helper('url');
+	}
 	public function index()
 	{
-		$this->load->helper('url');
 		$this->load->view('index');
 	}
 	public function discount()
 	{
-		$this->load->helper('url');
 		$this->load->view('discount');
+	}
+	public function about()
+	{
+		$this->load->view('about');
+	}
+	public function blog()
+	{
+		$this->load->view('blog');
+	}
+	public function contact()
+	{
+		$this->load->view('contact');
+	}
+	public function login()
+	{
+		$this->load->view('login');
 	}
 
 }
