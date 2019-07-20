@@ -28,6 +28,7 @@
                 <li><a href=<?php echo site_url('ternvagler/blog')?>>Blog</a></li>
                 
                 <li><a href=<?php echo site_url('ternvagler/contact')?>>Contact</a></li>
+                <li><a href=<?php echo site_url('ternvagler/login')?>>Login</a></li>
                 <!-- <li><a href="booking.html">Book Online</a></li> -->
               </ul>
             </nav>
