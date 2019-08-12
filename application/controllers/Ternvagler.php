@@ -38,7 +38,34 @@ class Ternvagler extends CI_Controller {
 	}
 	public function user_register()
 	{
-		echo 'tested';
+		$userdata = array(
+			'name' => $this->input->post('user_name'),
+			'gender' => $this->input->post('gender'),
+			'email' => $this->input->post('email'),
+			'dob' => $this->input->post('dob'),
+			'mobile' => $this->input->post('mobile'),
+			'password' => md5($this->input->post('password'))
+		);
+		$this->load->model('User');
+		$result  = $this->User->registerUser($userdata);
+		// if($result['err_code'] == '1062'){
+		// 	$this->load->view('register')
+		// }
+		if($result>=1){
+			// echo 'success inserted';
+			$this->load->view('register',$result);
+		}else{
+			print_r($result);
+		}
+	}
+	public function user_login(){
+		$userInputData = array(
+			'email' => $this->input->post('email'),
+			'password' => $this->input->post('password')
+		);
+		$this->load->model('User');
+		$result  = $this->User->loginUser($userInputData);
+		print_r($result);
 	}
 
 }

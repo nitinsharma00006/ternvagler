@@ -33,34 +33,34 @@
                   <form method="post"  action="<?php echo base_url()?>index.php/Ternvagler/user_register">
                     <div class="form-group">
                         <label>Name</label>
-                        <input type="text" name="name" class="form-control" placeholder='Enter name'/>
+                        <input type="text" name="user_name" class="form-control" placeholder='Enter name' required/>
                     </div>
                     <div class="form-group">
                         <label>Gender</label><br/>
                         <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" class="custom-control-input" id="defaultInline1" name="gender">
+                            <input type="radio" class="custom-control-input" id="defaultInline1" name="gender" value='M' required>
                             <label class="custom-control-label" for="defaultInline1">Male</label>
                         </div>
                         <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" class="custom-control-input" id="defaultInline2" name="gender">
+                            <input type="radio" class="custom-control-input" id="defaultInline2" name="gender" value='F' required>
                             <label class="custom-control-label" for="defaultInline2">Female</label>
                         </div>
                     </div>
                     <div class="form-group">
                         <label>Email id</label>
-                        <input type="email" class="form-control" placeholder='Enter email id'/>
+                        <input type="email" class="form-control" placeholder='Enter email id' name= 'email' required/>
                     </div>
                     <div class="form-group">
                         <label>Date Of Birth</label>
-                        <input type="date" id='dob' class="form-control"/>
+                        <input type="date" id='dob' class="form-control" name='dob' required/>
                     </div>
                     <div class="form-group">
                         <label>Mobile No.</label>
-                        <input type="number" class="form-control" placeholder='Enter phone number'/>
+                        <input type="number" class="form-control" placeholder='Enter phone number' name='mobile' required/>
                     </div>
                     <div class="form-group">
                         <label>Password</label>
-                        <input type="password" class="form-control" placeholder='Enter password'/>
+                        <input type="password" class="form-control" placeholder='Enter password' name='password' required/>
                     </div>
                     <div class="form-group">
                         <center>

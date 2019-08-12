@@ -12,14 +12,14 @@
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title text-center">Login</h5>
-                  <form>
+                  <form method='POST' action='<?php echo base_url()?>index.php/Ternvagler/user_login'>
                       <div class="form-group">
-                        <label>Username</label>
-                        <input type="text" class="form-control"/>
+                        <label>Email ID</label>
+                        <input type="email" class="form-control" name='email'/>
                       </div>
                       <div class="form-group">
                         <label>Password</label>
-                        <input type="password" class="form-control"/>
+                        <input type="password" class="form-control" name='password'/>
                       </div>
                       <div class="form-group">
                         <center>
