@@ -15,15 +15,15 @@
                   <form method='POST' action='<?php echo base_url()?>index.php/Ternvagler/user_login'>
                       <div class="form-group">
                         <label>Email ID</label>
-                        <input type="email" class="form-control" name='email'/>
+                        <input type="email" class="form-control" name='email' placeholder='Email ID' required/>
                       </div>
                       <div class="form-group">
                         <label>Password</label>
-                        <input type="password" class="form-control" name='password'/>
+                        <input type="password" class="form-control" name='password' placeholder='Password' required/>
                       </div>
                       <div class="form-group">
                         <center>
-                            <input type="button" value="Login" class="btn btn-primary"/>
+                            <input type="submit" value="Login" class="btn btn-primary"/>
                         </center>
                       </div>
                   </form>

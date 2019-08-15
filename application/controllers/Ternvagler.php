@@ -34,7 +34,9 @@ class Ternvagler extends CI_Controller {
 	}
 	public function register()
 	{
-		$this->load->view('register');
+		// Status 100 is for Dummy
+		$result['status'] = 100;
+		$this->load->view('register',$result);
 	}
 	public function user_register()
 	{
@@ -48,24 +50,14 @@ class Ternvagler extends CI_Controller {
 		);
 		$this->load->model('User');
 		$result  = $this->User->registerUser($userdata);
-		// if($result['err_code'] == '1062'){
-		// 	$this->load->view('register')
-		// }
-		if($result>=1){
-			// echo 'success inserted';
-			$this->load->view('register',$result);
-		}else{
-			print_r($result);
-		}
+		$this->load->view('register',$result);
 	}
 	public function user_login(){
-		$userInputData = array(
-			'email' => $this->input->post('email'),
-			'password' => $this->input->post('password')
-		);
+		$email = $this->input->post('email');
+		$password = $this->input->post('password');
 		$this->load->model('User');
-		$result  = $this->User->loginUser($userInputData);
-		print_r($result);
+		$this->User->loginUser($email , $password);
+		// print_r($result);
 	}
 
 }

@@ -8,7 +8,6 @@
         <script type='text/javascript'>
             $(function(){
                     var dtToday = new Date();
-                    
                     var month = dtToday.getMonth() + 1;
                     var day = dtToday.getDate();
                     var year = dtToday.getFullYear();
@@ -22,6 +21,11 @@
                     $('#dob').attr('max', maxDate);
                 });
         </script>
+        <style>
+            #response{
+                font-color : 'red';
+            }
+        </style>
     </head>
     <body>
         <div class="row">
@@ -30,6 +34,16 @@
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title text-center">User Register</h5>
+                  <?php
+                    if($status == 200){
+                        echo "<h6><p class='text-center' style='color:green;' >User Register SuccessFull.</p></h6>";
+                    }else if($status == 404){
+                        echo "<h6><p class='text-center' style='color:red;' >Email ID Already Exist.</p></h6>";
+                    }else{
+                        echo '';
+                    }
+                  ?>
+                  
                   <form method="post"  action="<?php echo base_url()?>index.php/Ternvagler/user_register">
                     <div class="form-group">
                         <label>Name</label>

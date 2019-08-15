@@ -13,13 +13,23 @@ public function registerUser($userdata){
         $error = $this->db->error();
         $data['err_code'] = $error['code'];
         $data['err_msg'] = $error['message'];
-        return $data;
+        if($data['err_code'] == 1062){
+            // Status = 404 Email ID Already Exist
+            $response['status'] = 404;
+             return $response;
+        }  
        }else{
-           return $result;
+        //    Status = 200 Means Register Successfull
+            $response['status'] = 200;
+            return $response;
        }
 }
-public function loginUser($userInputData){
-    print_r($userInputData);
+public function loginUser($email , $password){
+    $response = $this->db->select('*')
+                        -> from ('users')
+                        -> where ('email',$email)
+                        -> get();
+    echo $response;
 
 }
 
