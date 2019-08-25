@@ -25,12 +25,29 @@ public function registerUser($userdata){
        }
 }
 public function loginUser($email , $password){
-    $response = $this->db->select('*')
-                        -> from ('users')
-                        -> where ('email',$email)
-                        -> get();
-    echo $response;
-
+    $dbPassword = NULL;
+    $response['status'] = 404;
+    $SQL = 'select id,password from users where email="'.$email.'"';
+    $query = $this->db->query($SQL);
+    foreach($query->result_array() as $row){
+        $dbPassword = $row['password'];
+        $id = $row['id'];
+    }
+    if($dbPassword != NULL){
+        if($dbPassword == $password){
+            // Status = 200 Means SuccessFull Login
+            $response['status'] = 200;
+            $response['id'] = $id;
+            return $response;
+        }else{
+            // Status = 405 Means Password Mismatch
+            $response['status'] = 405;
+            return $response;
+        }
+    }else{
+        // Status = 404 Means User Not Exist
+        return $response;
+    }
 }
 
 }

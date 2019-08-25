@@ -14,7 +14,7 @@
                   <a href=<?php echo site_url('ternvagler/index')?>>Home</a>
                 </li>
                 <li class="has-children">
-                  <a href="destination.html">Destinations</a>
+                  <a href="#">Destinations</a>
                   <ul class="dropdown">
                     <li><a href="#">Japan</a></li>
                     <li><a href="#">Europe</a></li>

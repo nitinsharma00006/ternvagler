@@ -7,6 +7,7 @@ class Ternvagler extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->helper('url');
+		// $this->load->dbforge();
 	}
 	public function index()
 	{
@@ -56,7 +57,10 @@ class Ternvagler extends CI_Controller {
 		$email = $this->input->post('email');
 		$password = $this->input->post('password');
 		$this->load->model('User');
-		$this->User->loginUser($email , $password);
+		$response = $this->User->loginUser($email , md5($password));
+		if($response['status']==200){
+			echo 'id'. $response['id'];
+		}
 		// print_r($result);
 	}
 

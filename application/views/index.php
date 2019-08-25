@@ -55,9 +55,9 @@
               
 
               <h1 class="text-white font-weight-light">Never Stop Exploring</h1>
-              <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga est inventore ducimus repudiandae.</p>
-              <p><a href="#" class="btn btn-primary py-3 px-5 text-white">Book Now!</a></p>
-
+              <!-- <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga est inventore ducimus repudiandae.</p> -->
+              <p><a href="#" class="btn btn-primary py-3 px-5 text-white">Travel Now</a> <a href="#" class="btn btn-success py-3 px-5 text-white">Shop Now</a></p>
+              <!-- <p><a href="#" class="btn btn-primary py-3 px-5 text-white">Shop Now</a></p> -->
             </div>
           </div>
         </div>
@@ -69,8 +69,8 @@
 
             <div class="col-md-8" data-aos="fade-up" data-aos-delay="400">
               <h1 class="text-white font-weight-light">Love The Places</h1>
-              <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga est inventore ducimus repudiandae.</p>
-              <p><a href="#" class="btn btn-primary py-3 px-5 text-white">Book Now!</a></p>
+              <!-- <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga est inventore ducimus repudiandae.</p> -->
+              <p><a href="#" class="btn btn-primary py-3 px-5 text-white">Travel Now</a> <a href="#" class="btn btn-success py-3 px-5 text-white">Shop Now</a></p>
             </div>
           </div>
         </div>
